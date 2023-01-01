@@ -1,0 +1,17 @@
+{
+  "name": "typescript-oop",
+  "version": "1.0.0",
+  "description": "Belajar Typescript OOP",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "rm -rf build/ && tsc",
+    "ts": "rm -rf build/ && tsc -w",
+    "dev": "nodemon ./build/namespace.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.4"
+  }
+}
